@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Important to make website responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TKC FAMILY RESTAURANT</title>
+
+    <!-- Link our CSS file -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Navbar Section Starts Here -->
+    <section class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="#" title="Logo">
+                    <img src="images/logo.jpeg" alt="Logo" class="img-responsive">
+                </a>
+            </div>
+
+            <div class="menu text-right">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="categories.html">Food Categories</a>
+                    </li>
+                   <!-- <li>
+                        <a href="foods.html">Foods</a>
+                    </li> -->
+                    <li>
+                        <a href="images.html">Gallery</a>
+                    </li>
+                    <li>
+                        <a href="#contact-section">Contact
+                        </a>
+                      </li>
+                </ul>
+            </div>
+
+            <div class="clearfix"></div>
+        </div>
+    </section>
+    <!-- Navbar Section Ends Here -->
+
+    <!-- FOOD SEARCH Section Starts Here -->
+    <section class="food-search text-center">
+        <div class="container">
+            
+            <form action="foods.html" method="POST">
+                <input type="search" name="search" placeholder="Search Your Food here....." required>
+                <input type="submit" name="submit" value="GO!" class="btn btn-primary">
+            </form>
+
+        </div>
+    </section>
+    <!-- fOOD sEARCH Section Ends Here -->
+
+    <!-- CAtegories Section Starts Here -->
+   <!-- <section class="categories">
+        <div class="container">
+            <h2 style="color: burlywood;" class="text-center">Explore Your Food Here!</h2>
+            <h2 style="color: red;" class="text-center">CHINESE & SOUTH INDIA</h2>
+
+            <div style="align: left; text-align:center;">
+                <img src="images/summermenu.png" alt="summermenu" width="500" height="500">
+                <div class="caption">SUMMER SPECIAL MENU</div>
+            </div>
+
+            <div style="align: left; text-align:center;">
+                <img src="images/menu.jpg" alt="menu" width="500" height="500">
+                <div class="caption">CHINESE MENU</div>
+            </div>
+
+            <div style="align: left; text-align:center;">
+                <img src="images/menu2.png" alt="menu2" width="500" height="500">
+                <div class="caption">SOUTH INDIAN & BEVERAGES MENU</div>
+            </div> -->
+
+<!-- COLLAGE OF FOOD-->
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                    background-color: #f8f8f8;
+                    text-align: center;
+                    margin: 0;
+                    padding: 0;
+                }
+                .collage-container {
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    gap: 10px;
+                    max-width: 900px;
+                    margin: 20px auto;
+                    padding: 10px;
+                }
+                .collage-item {
+                    position: relative;
+                    overflow: hidden;
+                    border-radius: 10px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+                }
+                .collage-item img {
+                    width: 100%;
+                    height: auto;
+                    display: block;
+                    border-radius: 10px;
+                }
+                .collage-item h3 {
+                    position: absolute;
+                    bottom: 10px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    background: rgba(0, 0, 0, 0.6);
+                    color: #fff;
+                    padding: 5px 10px;
+                    border-radius: 5px;
+                    font-size: 16px;
+                }
+            </style>
+        </head>
+        <body>
+
+            <h2 style="font-family: 'Lobster', cursive; color: burlywood;" class="text-center">Explore Your Food Here!</h2>
+    <h2 style="font-family: 'Lobster', cursive; color: red;" class="text-center">CHINESE & SOUTH INDIAN</h2>
+    <div class="collage-container">
+        <div class="collage-item">
+            <img src="images/summermenu.png" alt="Summer Menu">
+            <h3>Summer Special Menu</h3>
+        </div>
+        <div class="collage-item">
+            <img src="images/menu.jpg" alt="Chinese Menu">
+            <h3>Chinese Menu</h3>
+        </div>
+        <div class="collage-item">
+            <img src="images/menu2.png" alt="South Indian & Beverages Menu">
+            <h3>South Indian & Beverages Menu</h3>
+        </div>
+    </div>
+
+    <h2 class="food-categories-title">Food Categories</h2>
+    <div class="collage-container">
+        <div class="collage-item">
+            <div class="image-frame">
+                <img src="images/momos.jpg" alt="Momo" class="collage-image">
+                <img src="images/paneermomo.jpg" alt="Momo" class="collage-image">
+                <img src="images/chickenmomo.jpeg" alt="Momo" class="collage-image">
+            </div>
+            <h3 class="collage-caption">Momos</h3>
+        </div>
+        <div class="collage-item">
+            <div class="image-frame">
+                <img src="images/noodles.jpg" alt="Noodles" class="collage-image">
+                <img src="images/chickennoodels.jpg" alt="Noodles" class="collage-image">
+            </div>
+            <h3 class="collage-caption">Noodles</h3>
+        </div>
+        <div class="collage-item">
+            <div class="image-frame">
+                <img src="images/springroll.jpg" alt="Rolls" class="collage-image">
+                <img src="images/panroll.jpg" alt="Rolls" class="collage-image">
+            </div>
+            <h3 class="collage-caption">Rolls</h3>
+        </div>
+        <div class="collage-item">
+            <div class="image-frame">
+                <img src="images/dosa.jpg" alt="Dosa" class="collage-image">
+            </div>
+            <h3 class="collage-caption">Dosa</h3>
+        </div>
+        <div class="collage-item">
+            <div class="image-frame">
+                <img src="images/shake.jpg" alt="Shakes" class="collage-image">
+            </div>
+            <h3 class="collage-caption">Shakes</h3>
+        </div>
+        <div class="collage-item">
+            <div class="image-frame">
+                <img src="images/chillychicken.jpg" alt="Chicken" class="collage-image">
+            </div>
+            <h3 class="collage-caption">Chilly Chicken</h3>
+        </div>
+        <div class="collage-item">
+            <div class="image-frame">
+                <img src="images/lollypop.jpg" alt="Chicken Lollypop" class="collage-image">
+            </div>
+            <h3 class="collage-caption">Chicken Lollypop</h3>
+        </div>
+        <div class="collage-item">
+            <div class="image-frame">
+                <img src="images/vegrice.jpg" alt="Fried Rice" class="collage-image">
+            </div>
+            <h3 class="collage-caption">Fried Rice</h3>
+        </div>
+    </div>
+            
+            
+
+    <!-- FOOD MENU Section Starts Here -->
+    <section class="food-menu">
+        <div class="container">
+            <h2 style="font-family: 'Lobster', cursive;" class="text-center">Food Menu</h2>
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="images/momos.jpg" alt="Chinese Menu" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Veg Momo</h4>
+                    <p class="food-price">₹70</p>
+                    <p class="food-detail">
+                        Veg Momos are steamed dumplings filled with a savory mixture of chopped vegies, onions, ginger, garlic, and spices, originating from Nepal and Tibet.
+                    </p>
+                    <br>
+
+                    <a target="_blank" href="vegmomoorder.html" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="images/chickenmomo.jpeg" alt="Chinese Menu" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Chicken Momo</h4>
+                    <p class="food-price">₹90</p>
+                    <p class="food-detail">
+                        Chicken Momos are steamed dumplings filled with a savory mixture of minced chicken, onions, ginger, garlic, and spices, originating from Nepal and Tibet.
+                    </p>
+                    <br>
+
+                    <a target="_blank" href="chickenmomoorder.html" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="images/paneermomo.jpg" alt="Chinese Menu" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Paneer Momo</h4>
+                    <p class="food-price">₹90</p>
+                    <p class="food-detail">
+                        Paneer Momos are steamed dumplings filled with a savory mixture of minced paneer, chopped veggies, onions, ginger, garlic, and spices, originating from Nepal and Tibet.
+                    </p>
+                    <br>
+
+                    <a target="_blank" href="paneermomoorder.html" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="images/noodles.jpg" alt="noodles" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Veg Noodles</h4>
+                    <p class="food-price">₹70</p>
+                    <p class="food-detail">
+                        Veg noodle is popular variation of a classic Asian dish, featuring stir-fried noodles with a medley of vegetables.
+                    </p>
+                    <br>
+
+                    <a target="_blank" href="vegnoodlesorder.html" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="images/chickennoodels.jpg" alt="noodles" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Chicken Noodles</h4>
+                    <p class="food-price">₹90</p>
+                    <p class="food-detail">
+                        Chicken noodle is popular variations of a classic Asian dish, featuring stir-fried noodles with a medley of tender chicken pieces.
+                    </p>
+                    <br>
+
+                    <a target="_blank" href="chickennoodlesorder.html" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="images/paneernoodles.png" alt="noodles" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Paneer Noodles</h4>
+                    <p class="food-price">₹90</p>
+                    <p class="food-detail">
+                        Paneer noodle is popular variations of a classic Asian dish, featuring stir-fried noodles with a medley of flavorful Indian cheese and veggies.
+                    </p>
+                    <br>
+
+                    <a target="_blank" href="paneernoodlesorder.html" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="images/panroll.jpg" alt="rolls" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Pan Roll</h4>
+                    <p class="food-price">₹100</p>
+                    <p class="food-detail">
+                    Pan rolls are a type of spring roll that is typically fried in a pan rather than deep-fried. Pan Rolls made with vegetarian fillings, such as cabbage, carrots, and mushrooms.
+                    </p>
+                    <br>
+
+                    <a target="_blank" href="panrollorder.html" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="images/springroll.jpg" alt="rolls" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Spring Rolls</h4>
+                    <p class="food-price">₹70</p>
+                    <p class="food-detail">
+                        Spring rolls are filled with various fillings like vegetables. Spring Rolls made with vegetarian fillings, such as cabbage, carrots, and mushrooms.
+                    </p>
+                    <br>
+
+                    <a target="_blank" href="sprinrollorder.html" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="images/dosa.jpg" alt="dosa" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Masala Dosa</h4>
+                    <p class="food-price">₹90</p>
+                    <p class="food-detail">
+                        Dosa is a thin, crispy crepe made from a fermented batter of rice and lentils, originating from South India. It's a popular breakfast and street food, often served with sambar (a lentil-based vegetable stew) and chutney.
+                    </p>
+                    <br>
+
+                    <a target="_blank" href="dosaorder.html" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="images/shake.jpg" alt="shakes" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Chocolate Shakes</h4>
+                    <p class="food-price">₹90</p>
+                    <p class="food-detail">
+                        Shakes are delicious, cold beverages typically made by blending milk, ice cream, and flavorings like chocolate, fruit, or syrups. They're a popular treat and come in countless variations!
+                    </p>
+                    <br>
+
+                    <a target="_blank" href="chocolateorder.html" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="images/chillychicken.jpg" alt="chilly chicken" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Chilly Chicken</h4>
+                    <p class="food-price">₹180</p>
+                    <p class="food-detail">
+                        Chilly chicken is a popular Indo-Chinese dish featuring crispy fried chicken tossed in a spicy and flavorful sauce with onions, bell peppers, and chilies.
+                    </p>
+                    <br>
+
+                    <a target="_blank" href="chillychickenorder.html" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="images/lollypop.jpg" alt="lollypop" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Chicken Lollypop</h4>
+                    <p class="food-price">₹180</p>
+                    <p class="food-detail">
+                        Chicken lollipop is a popular Indo-Chinese appetizer made from frenched chicken winglets or drumettes. The meat is cut and pushed to one end of the bone, creating a lollipop appearance. It's then marinated in a spicy batter, deep-fried until crispy, and often served with a flavorful sauce.
+                    </p>
+                    <br>
+
+                    <a target="_blank" href="chickenlollypoporder.html" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="images/vegrice.jpg" alt="lollypop" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Veg Fried Rice</h4>
+                    <p class="food-price">₹80</p>
+                    <p class="food-detail">
+                        Fried rice is a versatile dish with many variations. Veg Fried Rice is a classic vegetarian option made with a medley of stir-fried vegetables like carrots, peas, and onions.
+                    </p>
+                    <br>
+
+                    <a target="_blank" href="vegriceorder.html" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+
+        
+
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="images/chickenrice.jpg" alt="lollypop" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Chicken Fried Rice</h4>
+                    <p class="food-price">₹100</p>
+                    <p class="food-detail">
+                        Fried rice is a versatile dish with many variations. Chicken Fried Rice adds tender chicken pieces to the mix for a protein boost and made with a medley of stir-fried vegetables like carrots, peas, and onions.
+                    </p>
+                    <br>
+
+                    <a target="_blank" href="chickenriceorder.html" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="images/paneer .jpg" alt="lollypop" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Paneer Fried Rice</h4>
+                    <p class="food-price">₹90</p>
+                    <p class="food-detail">
+                        Fried rice is a versatile dish with many variations. For those seeking a vegetarian alternative with a touch of richness, Paneer Fried Rice incorporates soft paneer cubes alongside the stir-fried vegetables and rice.
+                    </p>
+                    <br>
+
+                    <a target="_blank" href="paneerriceorder.html" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+
+               
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+
+
+            <div class="clearfix"></div>
+
+            
+
+        </div>
+
+        <p class="text-center">
+            <a href="#">Explore All Foods</a>
+        </p>
+    </section>
+    <!-- fOOD Menu Section Ends Here -->
+
+    <!-- social Section Starts Here -->
+    <section class="social" id="contact-section">
+        <div class="container text-center">
+            <ul>
+                <li>
+                    <a target="_blank" href="https://www.facebook.com/people/TKC-Family-Restaurant/100057534605756/?locale=fy_NL"><img src="images/fb.jpeg" width="50" height="50"/></a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://www.instagram.com/tkc_restaurant?igsh=MWJwaGU4OW42ZDl1NQ=="><img src="images/ig.jpeg" width="50" height="50"/></a>
+                </li>
+                <li>
+                    <a target="_blank" href="tel:+91 97608 82420"><img src="images/phone.jpg" width="50" height="50"/></a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- social Section Ends Here -->
+
+    <!-- footer Section Starts Here -->
+    <section class="footer">
+        <div class="container text-center">
+            <p>All rights reserved. Designed By <a target="_blank" href="https://github.com/ankurkohli007">Ankur Kohli</a></p>
+        </div>
+    </section>
+    <!-- footer Section Ends Here -->
+
+</body>
+</html>
