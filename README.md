@@ -44,7 +44,7 @@ Restaurant-Website/
 ## 🛠️ Technologies Used
 - **HTML** - Markup structure
 - **CSS** - Styling and animations
-- **JavaScript** - Dynamic interactions
+- **JavaScript** - Dynamic interactions (basics)
 
 ## 🎯 How to Use
 1. **Clone the repository**
