@@ -35,8 +35,7 @@ Restaurant-Website/
 │── vegriceorder.html        # For veg fried rices order placement such as quantity and total cart value
 │── css/
 │   ├── styles.css      # Main stylesheet
-│── js/
-│   ├── script.js       # JavaScript for interactivity such as alert after placing the order and form.rest()
+├── script.js       # JavaScript for interactivity such as alert after placing the order and form.rest()
 │── images/             # Food Image assets
 │── README.md           # Project documentation
 ```
