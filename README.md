@@ -3,7 +3,7 @@
 Welcome to the **Restaurant Website** repository! This project is a fully responsive, modern, and visually appealing restaurant website built using **HTML5, & CSS**. The design is crafted to provide an elegant user experience with smooth navigation and aesthetically pleasing UI elements.
 
 ## 🚀 Live Demo
-Check out the live version of this website: [Click here to visit Website][(https://ankurkohli007.github.io/Restaurant-Website-HTML-CSS/)](https://ankurkohli007.github.io/Restaurant-Website-HTML-CSS/)
+Check out the live version of this website: [Click here to visit Website](https://ankurkohli007.github.io/Restaurant-Website-HTML-CSS/)
 ## 📌 Features
 - 🌐 **Fully Responsive** - Adapts seamlessly to desktops, but with the tablets, and mobile devices it is not much, working on it to make compatible with such devices as well.
 - 🎨 **Modern & Clean UI** - A visually appealing interface with an intuitive layout.
