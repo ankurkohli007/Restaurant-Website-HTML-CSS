@@ -59,7 +59,7 @@ Restaurant-Website/
 
 4. **For GitHub Page to experinece website on the server**
    ```bash
-   [click](https://ankurkohli007.github.io/Restaurant-Website-HTML-CSS/)
+   https://ankurkohli007.github.io/Restaurant-Website-HTML-CSS/
    ```
 
 ## 🤝 Contributing
